@@ -21,6 +21,6 @@ clean:
 	-rm -fr $(NAME)*
 
 lint:
-	golangci-lint run -v
+	golangci-lint run -v main.go
 
 .PHONY: run build test clean
