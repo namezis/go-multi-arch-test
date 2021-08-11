@@ -10,3 +10,5 @@ script:
   - uname -a
   - go version
   - make
+  - ./go-multi-arch-test-amd64
+  - ./go-multi-arch-test-armhf
