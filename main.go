@@ -2,10 +2,10 @@ package main
 
 import (
 	"fmt"
-	"os"
+	"runtime"
 )
 
 func main() {
 	fmt.Println("Hello World!")
-	fmt.Printf("Platform is: %s\n", runtime.GOOS)
+	fmt.Printf("Platform OS is: %s\n", runtime.GOOS)
 }
