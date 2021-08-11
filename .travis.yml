@@ -9,4 +9,7 @@ go
   - tip
 
 script:
+  - ls /proc/sys/fs/binfmt_misc/
+  - uname -a
+  - go version
   - make
